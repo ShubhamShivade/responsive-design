@@ -40,6 +40,10 @@ li {
   margin: 23px;
 }
 
+.para{
+  display: flex;
+}
+
 .row {
   display: flex;
   width: 85%;
@@ -118,6 +122,7 @@ button:hover {
 
 h5 {
   font-size: 13px;
+  text-shadow: 1px 1px 5px white;
 }
 
 .card1:hover {
@@ -146,53 +151,65 @@ h5 {
 }
 
 
-@media (max-width: 810px) {
+@media (max-width: 450px) {
   .navbar {
-    height: 70px;
+    height: 50px;
   }
   .container {
-    display: block;
+    display: flex;
   }
+
   ul {
-    margin: 4% 0% 0% 90%;
+    display: block;
+    margin: 4% 0% 0% 100%;
+  }
+
+  li{
+    margin: 14px 14px -10px 40px;
+    font-size: 12px;
   }
   .menu-icon {
-    margin: 20px 0px 20px 290px;
+    margin: 20px 0px 20px 110px;
   }
   .row {
     display: block;
   }
   h1 {
     font-size: 35px;
+    margin-top: 30px;
+  }
+
+  .para{
+    width: 365px;
   }
   .col1 {
     padding: 0px;
-    width: 740px;
+    width: 412px;
     margin: 5px 10px 5px 10px;
   }
   .col2 {
     display:block;
     padding: 10px;
-    margin: 0px auto 30px;
+    margin: 0px auto 0px;
     position: relative;
   }
   .card {
-    height: 175px;
-    width: 510px;
-    margin: 30px auto 30px;
+
+    margin: 40px auto 40px;
     
   }
-  .card1{
-    background-position: 0% 40%;
+
+  .card1:hover{
+    margin: 20px auto 60px;
   }
-  .card2{
-    background-position: 0% 25%;
+  .card2:hover{
+    margin: -20px auto 60px;
   }
-  .card3{
-    background-position: 0% 26%;
+  .card3:hover{
+    margin: -20px auto 60px;
   }
-  .card4{
-    background-position: 0% 75%;
+  .card4:hover{
+    margin: -20px auto 60px;
   }
 
 }
