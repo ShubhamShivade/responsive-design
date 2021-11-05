@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather", serif;
+}
+
+body {
+  background-image: url(sahara_desert.jpg);
+  background-size: 100%;
+}
+
+.navbar {
+  height: 100px;
+  display: flex;
+  width: 85%;
+  margin: 10px auto 10px;
+}
+
+.logo {
+  height: 50px;
+  width: 60px;
+  margin: 20px;
+}
+.menu-icon {
+  height: 40px;
+  width: 40px;
+  margin: 20px 20px 20px 800px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  display: flex;
+  margin: 5% 0% 0% 275%;
+}
+
+li {
+  font-size: 15px;
+  margin: 23px;
+}
+
+.row {
+  display: flex;
+  width: 85%;
+  margin-left: 5%;
+}
+
+.col1 {
+  display: block;
+  padding: 10px;
+  margin: 20px;
+  color: white;
+  width: 550px;
+  padding-top: 135px;
+}
+
+.para {
+  line-height: 23px;
+}
+
+h1 {
+  color: white;
+  font-size: 85px;
+}
+
+button {
+  background-color: #fff;
+  height: 42px;
+  width: 180px;
+  border-radius: 25px;
+  margin: 25px 10px 20px 15px;
+  border: 0px solid white;
+}
+button:hover {
+  background-color: rgb(248, 248, 248);
+  margin: 23px 8px 22px 17px;
+  cursor: pointer;
+}
+
+.col2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 25px;
+}
+
+.card {
+  height: 225px;
+  width: 200px;
+  border-radius: 10px;
+  color: #fff;
+  margin: 20px;
+  padding: 15px;
+  line-height: 17px;
+  background-size: 100%;
+  font-size: 11px;
+}
+.card1 {
+  background-image: url(pic-1.png);
+  transition: 0.3s ease-out;
+}
+
+.card2 {
+  background-image: url(pic-2.png);
+  transition: 0.3s ease-out;
+}
+
+.card3 {
+  background-image: url(pic-3.png);
+  transition: 0.3s ease-out;
+}
+
+.card4 {
+  background-image: url(pic-4.png);
+  transition: 0.3s ease-out;
+}
+
+h5 {
+  font-size: 13px;
+}
+
+.card1:hover {
+  cursor: pointer;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  transition: 0.5s ease-in;
+}
+.card2:hover {
+  cursor: pointer;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  transition: 0.5s ease-in;
+}
+.card3:hover {
+  cursor: pointer;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  transition: 0.5s ease-in;
+}
+.card4:hover {
+  cursor: pointer;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  transition: 0.5s ease-in;
+}
+
+
+@media (max-width: 810px) {
+  .navbar {
+    height: 70px;
+  }
+  .container {
+    display: block;
+  }
+  ul {
+    margin: 4% 0% 0% 90%;
+  }
+  .menu-icon {
+    margin: 20px 0px 20px 290px;
+  }
+  .row {
+    display: block;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  .col1 {
+    padding: 0px;
+    width: 740px;
+    margin: 5px 10px 5px 10px;
+  }
+  .col2 {
+    display:block;
+    padding: 10px;
+    margin: 0px auto 30px;
+    position: relative;
+  }
+  .card {
+    height: 175px;
+    width: 510px;
+    margin: 30px auto 30px;
+    
+  }
+  .card1{
+    background-position: 0% 40%;
+  }
+  .card2{
+    background-position: 0% 25%;
+  }
+  .card3{
+    background-position: 0% 26%;
+  }
+  .card4{
+    background-position: 0% 75%;
+  }
+
+}
